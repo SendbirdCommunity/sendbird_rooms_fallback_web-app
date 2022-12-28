@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+div#video_holder {
+  background: ghostwhite;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  max-height: 800px;
+}
+
+.videoInsert {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  max-height: 800px;
+  background-size: cover;
+  overflow: hidden;
+}
